@@ -68,7 +68,7 @@ Feature: NUMA Users test
     When method delete
     Then status 200
 
-    # Delete user
+    # Get user
     * print 'Get user (deleted)'
     Given path 'users/', id
     When method get
